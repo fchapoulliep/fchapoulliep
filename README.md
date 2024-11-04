@@ -9,12 +9,12 @@ I am a passionate full-stack developer with a strong background in creating dyna
 ### Front-End
 - **Languages**: HTML, CSS, JavaScript, TypeScript
 - **Frameworks/Libraries**: React, Angular
-- **Tools**: Webpack, npm, Yarn
+- **Tools**: Webpack, npm, Yarn, deno
 
 ### Back-End
 - **Languages**: Node.js, Python, Java, PHP
-- **Frameworks**: Express
-- **Databases**: MySQL, PostgreSQL, Microsoft SQL Server
+- **Frameworks**: Express, Symfony
+- **Databases**: MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, Neo4j
 
 ### Other
 - **Version Control**: Git, GitHub, GitLab
