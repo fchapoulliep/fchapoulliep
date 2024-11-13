@@ -29,3 +29,5 @@ I am a passionate full-stack developer with a strong background in creating dyna
 ## 📫 Get in Touch
 
 Feel free to reach out if you want to collaborate on a project, have any questions, or just want to say hi!
+
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=fchapoulliep&theme=github)
