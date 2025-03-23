@@ -8,12 +8,12 @@ I am a passionate full-stack developer with a strong background in creating dyna
 
 ### Front-End
 - **Languages**: HTML, CSS, JavaScript, TypeScript
-- **Frameworks/Libraries**: React, Angular
+- **Frameworks/Libraries**: React, Angular, Qwik
 - **Tools**: Webpack, npm, Yarn, deno
 
 ### Back-End
 - **Languages**: Node.js, Python, Java, PHP
-- **Frameworks**: Express, Symfony
+- **Frameworks**: Express, Symfony, Qwik, NestJS
 - **Databases**: MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, Neo4j
 
 ### Other
