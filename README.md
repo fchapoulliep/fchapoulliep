@@ -30,4 +30,4 @@ I am a passionate full-stack developer with a strong background in creating dyna
 
 Feel free to reach out if you want to collaborate on a project, have any questions, or just want to say hi!
 
-[![RootMe](https://rootme-readme-stats.vercel.app/api?username=fchapoul)](https://www.root-me.org/fchapoul)
+[![RootMe](./rootme-badge.svg)](https://www.root-me.org/fchapoul)

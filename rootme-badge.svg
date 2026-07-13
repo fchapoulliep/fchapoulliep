@@ -1,39 +1,63 @@
-<svg width="420" height="210" viewBox="0 0 420 210"
+<svg width="460" height="246" viewBox="0 0 460 246"
      xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Root-Me stats for fchapoul">
   <style>
-    .card { fill:#0d1117; stroke:#30363d; stroke-width:1; rx:8; }
-    .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill:#3ddc97; }
-    .subtitle { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill:#8b949e; }
-    .stat-label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill:#c9d1d9; }
-    .stat-value { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill:#ffffff; }
+    .bg { fill:#0d1117; }
+    .border { fill:none; stroke:#21262d; stroke-width:1; }
+    .accent { fill:#3ddc97; }
+    .brand { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; letter-spacing: 1.5px; fill:#3ddc97; }
+    .username { font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif; fill:#e6edf3; }
+    .stat-label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill:#8b949e; }
+    .stat-value { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill:#e6edf3; }
+    .pill { fill:#161b22; stroke:#30363d; stroke-width:1; }
   </style>
 
-  <rect x="0.5" y="0.5" width="419" height="209" class="card"/>
+  <rect x="0.5" y="0.5" width="459" height="245" rx="12" class="bg border"/>
+  <rect x="0.5" y="0.5" width="6" height="245" rx="3" class="accent"/>
 
-  <g transform="translate(30,35)">
-    <text class="title">Root-Me Stats</text>
-    <text class="subtitle" y="20">fchapoul</text>
-  </g>
+  <text x="30" y="28" class="brand">ROOT-ME</text>
+  <text x="30" y="52" class="username">fchapoul</text>
+
+  <line x1="26" y1="64" x2="434" y2="64" stroke="#21262d" stroke-width="1"/>
 
   
-        <g transform="translate(30,78)">
-            <circle cx="4" cy="-5" r="4" fill="#3ddc97"/>
-            <text x="20" y="0" class="stat-label">Score:</text>
-            <text x="260" y="0" class="stat-value" text-anchor="end">225 pts</text>
-        </g>
-        <g transform="translate(30,106)">
-            <circle cx="4" cy="-5" r="4" fill="#3ddc97"/>
-            <text x="20" y="0" class="stat-label">Position:</text>
-            <text x="260" y="0" class="stat-value" text-anchor="end">#72622</text>
-        </g>
-        <g transform="translate(30,134)">
-            <circle cx="4" cy="-5" r="4" fill="#3ddc97"/>
-            <text x="20" y="0" class="stat-label">Challenges validés:</text>
-            <text x="260" y="0" class="stat-value" text-anchor="end">19</text>
-        </g>
-        <g transform="translate(30,162)">
-            <circle cx="4" cy="-5" r="4" fill="#3ddc97"/>
-            <text x="20" y="0" class="stat-label">Rang:</text>
-            <text x="260" y="0" class="stat-value" text-anchor="end">Curious</text>
-        </g>
+    <g transform="translate(0,84.0)">
+      <g transform="translate(30,-9) scale(0.75)" stroke="#3ddc97" stroke-width="2" fill="none"
+         stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2l2.9 6.26L22 9.27l-5 4.87L18.18 21 12 17.27 5.82 21 7 14.14l-5-4.87 7.1-1.01L12 2z"/>
+      </g>
+      <text x="60" y="5" class="stat-label">Score</text>
+      <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
+      <text x="382" y="5" class="stat-value" text-anchor="middle">225 pts</text>
+    </g>
+    <line x1="26" y1="104" x2="434" y2="104" stroke="#21262d" stroke-width="1"/>
+    <g transform="translate(0,124.0)">
+      <g transform="translate(30,-9) scale(0.75)" stroke="#3ddc97" stroke-width="2" fill="none"
+         stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 21V10M10 21V4M16 21v-7M22 21H2"/>
+      </g>
+      <text x="60" y="5" class="stat-label">Position</text>
+      <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
+      <text x="382" y="5" class="stat-value" text-anchor="middle">#72622</text>
+    </g>
+    <line x1="26" y1="144" x2="434" y2="144" stroke="#21262d" stroke-width="1"/>
+    <g transform="translate(0,164.0)">
+      <g transform="translate(30,-9) scale(0.75)" stroke="#3ddc97" stroke-width="2" fill="none"
+         stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6L9 17l-5-5"/>
+      </g>
+      <text x="60" y="5" class="stat-label">Challenges validés</text>
+      <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
+      <text x="382" y="5" class="stat-value" text-anchor="middle">19</text>
+    </g>
+    <line x1="26" y1="184" x2="434" y2="184" stroke="#21262d" stroke-width="1"/>
+    <g transform="translate(0,204.0)">
+      <g transform="translate(30,-9) scale(0.75)" stroke="#3ddc97" stroke-width="2" fill="none"
+         stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 15a6 6 0 100-12 6 6 0 000 12z"/><path d="M8.5 14L7 22l5-3 5 3-1.5-8"/>
+      </g>
+      <text x="60" y="5" class="stat-label">Rang</text>
+      <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
+      <text x="382" y="5" class="stat-value" text-anchor="middle">Curious</text>
+    </g>
+    
 </svg>
