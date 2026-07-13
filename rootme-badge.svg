@@ -1,0 +1,39 @@
+<svg width="420" height="210" viewBox="0 0 420 210"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Root-Me stats for fchapoul">
+  <style>
+    .card { fill:#0d1117; stroke:#30363d; stroke-width:1; rx:8; }
+    .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill:#3ddc97; }
+    .subtitle { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill:#8b949e; }
+    .stat-label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill:#c9d1d9; }
+    .stat-value { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill:#ffffff; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="419" height="209" class="card"/>
+
+  <g transform="translate(30,35)">
+    <text class="title">Root-Me Stats</text>
+    <text class="subtitle" y="20">fchapoul</text>
+  </g>
+
+  
+        <g transform="translate(30,78)">
+            <circle cx="4" cy="-5" r="4" fill="#3ddc97"/>
+            <text x="20" y="0" class="stat-label">Score:</text>
+            <text x="260" y="0" class="stat-value" text-anchor="end">225 pts</text>
+        </g>
+        <g transform="translate(30,106)">
+            <circle cx="4" cy="-5" r="4" fill="#3ddc97"/>
+            <text x="20" y="0" class="stat-label">Position:</text>
+            <text x="260" y="0" class="stat-value" text-anchor="end">#72622</text>
+        </g>
+        <g transform="translate(30,134)">
+            <circle cx="4" cy="-5" r="4" fill="#3ddc97"/>
+            <text x="20" y="0" class="stat-label">Challenges validés:</text>
+            <text x="260" y="0" class="stat-value" text-anchor="end">19</text>
+        </g>
+        <g transform="translate(30,162)">
+            <circle cx="4" cy="-5" r="4" fill="#3ddc97"/>
+            <text x="20" y="0" class="stat-label">Rang:</text>
+            <text x="260" y="0" class="stat-value" text-anchor="end">Curious</text>
+        </g>
+</svg>

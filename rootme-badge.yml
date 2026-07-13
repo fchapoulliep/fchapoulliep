@@ -1,0 +1,37 @@
+name: Update Root-Me badge
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate badge
+        env:
+          ROOTME_API_KEY: ${{ secrets.ROOTME_API_KEY }}
+          ROOTME_ID: ${{ secrets.ROOTME_ID }}
+          OUT_PATH: rootme-badge.svg
+        run: python3 generate_badge.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rootme-badge.svg
+          git diff --quiet --cached || git commit -m "chore: update Root-Me badge"
+          git push
