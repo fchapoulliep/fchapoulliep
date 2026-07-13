@@ -52,11 +52,11 @@ def build_svg(
 
     stats = [
         ("score", "Score", f"{score} pts"),
-        ("position", "Position", f"#{position}"),
-        ("validated", "Challenges validés", str(nb_challenges)),
+        ("position", "Rank", f"#{position}"),
+        ("validated", "Challenges solved", str(nb_challenges)),
     ]
     if rang:
-        stats.append(("rang", "Rang", rang.capitalize()))
+        stats.append(("rang", "Title", rang.capitalize()))
 
     header_h = 64
     row_h = 40

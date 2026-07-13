@@ -35,7 +35,7 @@
          stroke-linecap="round" stroke-linejoin="round">
         <path d="M4 21V10M10 21V4M16 21v-7M22 21H2"/>
       </g>
-      <text x="60" y="5" class="stat-label">Position</text>
+      <text x="60" y="5" class="stat-label">Rank</text>
       <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
       <text x="382" y="5" class="stat-value" text-anchor="middle">#72622</text>
     </g>
@@ -45,7 +45,7 @@
          stroke-linecap="round" stroke-linejoin="round">
         <path d="M20 6L9 17l-5-5"/>
       </g>
-      <text x="60" y="5" class="stat-label">Challenges validés</text>
+      <text x="60" y="5" class="stat-label">Challenges solved</text>
       <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
       <text x="382" y="5" class="stat-value" text-anchor="middle">19</text>
     </g>
@@ -55,7 +55,7 @@
          stroke-linecap="round" stroke-linejoin="round">
         <path d="M12 15a6 6 0 100-12 6 6 0 000 12z"/><path d="M8.5 14L7 22l5-3 5 3-1.5-8"/>
       </g>
-      <text x="60" y="5" class="stat-label">Rang</text>
+      <text x="60" y="5" class="stat-label">Title</text>
       <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
       <text x="382" y="5" class="stat-value" text-anchor="middle">Curious</text>
     </g>
