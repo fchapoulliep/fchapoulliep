@@ -27,7 +27,7 @@
       </g>
       <text x="60" y="5" class="stat-label">Score</text>
       <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
-      <text x="382" y="5" class="stat-value" text-anchor="middle">225 pts</text>
+      <text x="382" y="5" class="stat-value" text-anchor="middle">290 pts</text>
     </g>
     <line x1="26" y1="104" x2="434" y2="104" stroke="#21262d" stroke-width="1"/>
     <g transform="translate(0,124.0)">
@@ -37,7 +37,7 @@
       </g>
       <text x="60" y="5" class="stat-label">Rank</text>
       <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
-      <text x="382" y="5" class="stat-value" text-anchor="middle">#72622</text>
+      <text x="382" y="5" class="stat-value" text-anchor="middle">#58845</text>
     </g>
     <line x1="26" y1="144" x2="434" y2="144" stroke="#21262d" stroke-width="1"/>
     <g transform="translate(0,164.0)">
@@ -47,7 +47,7 @@
       </g>
       <text x="60" y="5" class="stat-label">Challenges solved</text>
       <rect x="330" y="-14" width="104" height="28" rx="14" class="pill"/>
-      <text x="382" y="5" class="stat-value" text-anchor="middle">19</text>
+      <text x="382" y="5" class="stat-value" text-anchor="middle">25</text>
     </g>
     <line x1="26" y1="184" x2="434" y2="184" stroke="#21262d" stroke-width="1"/>
     <g transform="translate(0,204.0)">
