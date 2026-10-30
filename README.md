@@ -30,4 +30,9 @@ I am a passionate full-stack developer with a strong background in creating dyna
 
 Feel free to reach out if you want to collaborate on a project, have any questions, or just want to say hi!
 
-[![RootMe](./rootme-badge.svg)](https://www.root-me.org/fchapoul)
+<a href="https://www.root-me.org/fchapoul">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/fchapoulliep/fchapoulliep/raw/main/rootme-badge-dark.svg">
+    <img alt="Root-Me stats: points, global rank and challenges solved" src="https://github.com/fchapoulliep/fchapoulliep/raw/main/rootme-badge-light.svg" width="495">
+  </picture>
+</a>
