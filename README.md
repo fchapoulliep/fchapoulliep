@@ -6,20 +6,27 @@ I am a passionate full-stack developer with a strong background in creating dyna
 
 ## 🚀 Skills
 
-### Front-End
-- **Languages**: HTML, CSS, JavaScript, TypeScript
-- **Frameworks/Libraries**: React, Angular, Qwik
-- **Tools**: Webpack, npm, Yarn, deno
+### Languages
+TypeScript, JavaScript, Python, Java, C#, PHP, SQL, GDScript, HTML, CSS
 
-### Back-End
-- **Languages**: Node.js, Python, Java, PHP
-- **Frameworks**: Express, Symfony, Qwik, NestJS
-- **Databases**: MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, Neo4j
+### Web
+- **Front-end**: React, Qwik, Angular, Vite, Tailwind CSS
+- **Back-end**: Node.js, NestJS, Symfony, FastAPI, Flask
+- **Databases**: PostgreSQL, MySQL, Microsoft SQL Server, Oracle, MongoDB, Neo4j, Redis
 
-### Other
-- **Version Control**: Git, GitHub, GitLab
-- **CI/CD**: Jenkins, GitHub Actions, Travis CI
-- **DevOps**: Docker
+### AI and Media
+- **Language and documents**: speech recognition (Whisper), OCR, NER, LLM-as-a-Judge, LoRA fine-tuning
+- **Voice and audio**: text-to-speech and voice cloning (Coqui XTTS, Orpheus, Fish Speech, Chatterbox), stem separation (UVR, Demucs)
+- **Vision**: YOLOv8, Stable Diffusion, background removal (InSPyReNet)
+- **Video**: Remotion, MoviePy, FFmpeg
+
+### 3D
+Three.js, React Three Fiber, Blender scripting (`bpy`)
+
+### Tooling and Quality
+- **Version control and CI/CD**: Git, GitHub Actions, GitLab CI/CD
+- **Testing and practices**: JUnit, JaCoCo, SOLID, Scrum
+- **Environment**: Docker, uv
 
 ## 🌐 Find Me Around the Web
 
