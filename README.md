@@ -31,7 +31,7 @@ Three.js, React Three Fiber, Blender scripting (`bpy`)
 ## 🌐 Find Me Around the Web
 
 - LinkedIn: [Florian Chapoullié-Pino](https://www.linkedin.com/in/florianpino/)
-- Personal Website: [Portfolio](https://fchapoulliep.github.io/portfolio/)
+- Personal Website: [Portfolio](https://fchapoulliep.github.io/)
 
 ## 📫 Get in Touch
 
